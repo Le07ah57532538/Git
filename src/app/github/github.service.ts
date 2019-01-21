@@ -5,9 +5,9 @@ import 'rxjs/add/operator/map';
 @Injectable()
 
 export class GithubService{
-    private username = 'aditi-p31';
-    private client_id = '80b9ac37df166a05e441';
-    private client_secret='317addf4a5bea4a6df09a002bf45721f944ff728';
+    private username = 'Okalll';
+    private client_id = '7ae988b22a5b7f560312';
+    private client_secret='891230bd9468344e0ee5f5ed75e7ec8598b9bcfe';
 
     constructor(private _http:Http){
         console.log("GithubService started..");
@@ -15,7 +15,7 @@ export class GithubService{
 
     getUser(){
         return this._http.get('https://api.github.com/users/' + this.username+'?client_id='+this.client_id+'&client_secret='+this.client_secret)
-            .map(res => res.json()); 
+            .map(res => res.json());
     }
 
     getRepos(){
