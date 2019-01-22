@@ -26,17 +26,17 @@ The application enables a user to search a github username and the in return it 
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
 
 ## Technologies used
-1. html
+1. HTML
 
-2. css
+2. CSS
 
 3. Javascript and Typescript.
 
-4. Bootstrap.
+4. BOOTSTRAP.
 
 ## Link to Live Website
 
-https://okalll.github.io/Quotes/
+
 
 ### License
 
