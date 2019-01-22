@@ -30,5 +30,8 @@ export class GithubService {
     return this.http.get("https://api.github.com/users/" + this.username + "/repos?access_token=73e96903e758317c7cb25889c158cc10c542035d")
     .pipe(map(res => res));
   }
+  updateUser(username:string){
+    this.username = username;
+  }
 
 }

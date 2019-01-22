@@ -1,8 +1,8 @@
 <div class="row">
   <div class="col-md-12">
-    <form>
+    <form action="">
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Github Username" name="username" (keyup)="search()">
+        <input type="text" class="form-control" placeholder="Github Username" [(ngModel)]="username" name="username" (keyup)="findUser()">
       </div>
     </form>
   </div>
@@ -29,7 +29,7 @@
           <ul class="list-group">
             <li class="list-group-item"><strong>Username: </strong>{{user.login}}</li>
             <li class="list-group-item"><strong>Location: </strong>{{user.location}}</li>
-            <li class="list-group-item"><strong>Email: </strong>{{user.email}}</li>
+            <li class="list-group-item"><strong>Email:</strong>{{user.email}}</li>
             <li class="list-group-item"><strong>Blog: </strong>{{user.blog}}</li>
             <li class="list-group-item"><strong>Member Since: </strong>{{user.created_at}}</li>
           </ul>
