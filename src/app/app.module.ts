@@ -1,12 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-// import { HttpModule } from '@angular/common/http';
-// import { GithubService } from './github.service';
+import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
+import {GithubService} from './services/github.service';
 
 @NgModule({
   declarations: [
@@ -15,10 +14,11 @@ import { GithubComponent } from './github/github.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    // HttpModule
+    HttpClientModule,
+    FormsModule
+
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
