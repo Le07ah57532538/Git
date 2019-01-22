@@ -1,27 +1,65 @@
-# Git
+# Git-hub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
-## Development server
+## AUTHORS
+Okall Vivian.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This application enables an individual to search for a github user's name on the application and display the information of the individual.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements
 
-## Build
+To start using this project use the following commands:
+* First if the user is not on Github he/she is advised to create an account.
+* Once you are on Github you can navigate through account username: Okalll
+* Then when you go through my repositories check out Git-hub repo
+* `git clone https://github.com/Okalll/Git-hub.git`
+* `cd Git-hub`to get in to the file through Terminal
+* Then use `atom .`to open the files to the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Behaviour Driven development.
+The application enables a user to search a github username and the in return it displays the user's information
 
-## Running unit tests
+### Input:
+A quote is written
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The Author's name
 
-## Running end-to-end tests
+The publishers's name.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Output:
+The quote is displayed.
 
-## Further help
+The Author
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The upvote and downvote and also the delete button.
+
+## Known Bugs
+For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
+
+## Technologies used
+1. html
+
+2. css
+
+3. Javascript and Typescript.
+
+4. Bootstrap.
+
+## Link to Live Website
+
+https://okalll.github.io/Quotes/
+
+### License
+
+MIT License
+
+Copyright (c) 2019 Okall Vivian
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
