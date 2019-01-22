@@ -20,21 +20,7 @@ To start using this project use the following commands:
 * Then use `atom .`to open the files to the application.
 
 ## Behaviour Driven development.
-The application enables a user to search a github username and the in return it displays the user's information
-
-### Input:
-A quote is written
-
-The Author's name
-
-The publishers's name.
-
-### Output:
-The quote is displayed.
-
-The Author
-
-The upvote and downvote and also the delete button.
+The application enables a user to search a github username and the in return it displays the user's information.
 
 ## Known Bugs
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
