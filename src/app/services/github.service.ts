@@ -10,7 +10,7 @@ import { environment } from '../../environments/environment';
 })
 
 export class GithubService {
-  apiUrl = environment.apiUrl;
+  // apiUrl = environment.apiUrl;
   private username: string;
   private repo: string;
 

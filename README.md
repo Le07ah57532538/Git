@@ -26,7 +26,7 @@ The application enables a user to search a github username and the in return it 
 | :-------- | :---- | :----- |
 | Various names display  | At the type of the first letter| A github username and details |
 | Display user's details | Input the user's name  | Display user details |
-| Click on any REpository to view | Click on just any Repository | Respective repository is shown to you |
+| Click on any Repository to view | Click on just any Repository | Respective repository is shown to you |
 
 ## Known Bugs
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
