@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <form>
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Github Username" [(ngModel)]="username" name="username" (keyup)="search()">
+        <input type="text" class="form-control" placeholder="Github Username" name="username" (keyup)="search()">
       </div>
     </form>
   </div>
@@ -10,13 +10,13 @@
 
 <div class="User">
   <div class="col-md-4">
-  <img src="https://cdn-images-1.medium.com/max/1200/1*wzEf4qVNT7mUeMIeQWTJbg.jpeg" width="200" height="200">
-</div>
-<p>Username: Okall Vivian.<br><br>
-  Repositories: 14<br><br>
-  Followers: 2<br><br>
-  Following:4<br><br>
-  Status: Focusing</p>
+    <img src="https://cdn-images-1.medium.com/max/1200/1*wzEf4qVNT7mUeMIeQWTJbg.jpeg" width="200" height="200">
+  </div>
+  <p>Username: Okall Vivian.<br><br>
+    Repositories: 14<br><br>
+    Followers: 2<br><br>
+    Following:4<br><br>
+    Status: Focusing</p>
 </div>
 <div *ngIf="user">
   <div class="panel panel-default">
@@ -72,4 +72,3 @@
         </div>
       </div>
     </div>
-  </div>
