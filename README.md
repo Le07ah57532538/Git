@@ -21,13 +21,12 @@ To start using this project use the following commands:
 
 ## Behaviour Driven development.
 The application enables a user to search a github username and the in return it displays the user's information.
+
 | Behaviour | input | Output |
 | :-------- | :---- | :----- |
 | Various names display  | At the type of the first letter| A github username and details |
-| If all sides are not equal | 2,3,4  | Scalene triangle |
-| If only two sides are equal | 4,4,7 |Isosceles Triangle |
-| If you input a letter | e,e,e | Not a Number|
-| If the sum of is <= third | 4,4,8 | Not a Triangle |
+| Display user's details | Input the user's name  | Display user details |
+| Click on any REpository to view | Click on just any Repository | Respective repository is shown to you |
 
 ## Known Bugs
 For now there are no known bugs that I am aware of but if you do find any you could reach me through vivieokall@gmail.com
