@@ -1,4 +1,4 @@
-# Git-hub
+# Git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
@@ -16,7 +16,7 @@ To start using this project use the following commands:
 * Once you are on Github you can navigate through account username: Okalll
 * Then when you go through my repositories check out Git repo
 * `git clone https://github.com/Okalll/Git.git`
-* `cd Git-hub`to get in to the file through Terminal
+* `cd Git`to get in to the file through Terminal
 * Then use `atom .`to open the files to the application.
 
 ## Behaviour Driven development.
