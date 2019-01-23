@@ -14,8 +14,8 @@ This application enables an individual to search for a github user's name on the
 To start using this project use the following commands:
 * First if the user is not on Github he/she is advised to create an account.
 * Once you are on Github you can navigate through account username: Okalll
-* Then when you go through my repositories check out Git-hub repo
-* `git clone https://github.com/Okalll/Git-hub.git`
+* Then when you go through my repositories check out Git repo
+* `git clone https://github.com/Okalll/Git.git`
 * `cd Git-hub`to get in to the file through Terminal
 * Then use `atom .`to open the files to the application.
 
